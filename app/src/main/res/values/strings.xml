@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BMI_REVISION</string>
+    <string name="MessageClassification">Classification: %1$s</string>
 </resources>

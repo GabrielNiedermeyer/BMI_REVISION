@@ -17,14 +17,14 @@
 
     <TextView
         android:layout_marginTop="15dp"
-        android:id="@+id/tvResult"
+        android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"    />
 
     <TextView
         android:layout_marginTop="15dp"
-        android:id="@+id/tvClassification"
+        android:id="@+id/textViewClassification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
@@ -45,9 +45,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/scale"
-        />
-
+        android:src="@drawable/scale" />
 
 
 </LinearLayout>
