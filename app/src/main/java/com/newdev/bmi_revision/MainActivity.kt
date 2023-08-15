@@ -28,7 +28,6 @@ import android.widget.Toast
                 val result :  Float = weight / finalHeight
 
                 val intent = Intent(this, ResultActivity:: class.java)
-
                     .apply {
                         putExtra("EXTRA_RESULT",result)
                     }
