@@ -10,6 +10,8 @@
 
     <EditText
         android:id="@+id/edt_Weight"
+        android:maxLength="6"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Add your weight"
@@ -19,6 +21,8 @@
 
     <EditText
         android:id="@+id/edt_Height"
+        android:maxLength="6"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edt_Weight"
