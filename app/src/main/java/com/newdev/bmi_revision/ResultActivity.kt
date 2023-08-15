@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class ResultActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +30,7 @@ class ResultActivity: AppCompatActivity() {
                 "Extremely obese"
 }
         tvClassification.text = getString(R.string.MessageClassification,classification)
+        tvClassification.setTextColor(ContextCompat.getColor(this, R.color.purple))
 
     }
 
