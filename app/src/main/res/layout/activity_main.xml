@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Add your weight"
-        android:textColorHint="@color/Button_calculate"
+        android:textColorHint="@color/purple"
         />
 
 
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edt_Weight"
         android:hint="Add your Height"
-        android:textColorHint="@color/Button_calculate" />
+        android:textColorHint="@color/purple" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/Button_calculate"
+        android:background="@color/purple"
         android:textStyle="bold"
         android:text="Calculate" />
 
